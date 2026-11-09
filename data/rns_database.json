@@ -1,0 +1,606 @@
+{
+  "admin": {
+    "id": 1,
+    "name": "Saniya Dangre",
+    "email": "saniyadangre80@gmail.com",
+    "password_hash": "$2b$10$pFXrzy0YDsr8oR1cTTurAO7HQmB0leiKmn.DKU3rAiZWfrOvOexji",
+    "role": "Super Admin",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+    "created_at": "2026-01-01T00:00:00.000Z"
+  },
+  "settings": {
+    "store_name": "RNS SHOP",
+    "logo_text": "RNS SHOP",
+    "tagline": "Contemporary Everyday Fashion & Premium Streetwear",
+    "email": "contact@rnsshop.com",
+    "phone": "+1 (800) 555-7677",
+    "address": "108 Fashion Avenue, Design District, New York, NY 10018",
+    "currency": "$",
+    "tax_rate": 8.5,
+    "shipping_fee": 9.99,
+    "free_shipping_threshold": 120,
+    "social_links": {
+      "instagram": "https://instagram.com/rnsshop_official",
+      "facebook": "https://facebook.com/rnsshop",
+      "twitter": "https://x.com/rnsshop",
+      "pinterest": "https://pinterest.com/rnsshop"
+    }
+  },
+  "categories": [
+    {
+      "id": 1,
+      "name": "Denim & Outerwear",
+      "slug": "denim-outerwear",
+      "description": "Classic denim jackets, trucker coats, and rugged outerwear essentials.",
+      "image": "/src/assets/images/rns_denim_jacket_1794128109654.jpg",
+      "product_count": 4,
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "name": "Hoodies & Sweatshirts",
+      "slug": "hoodies-sweatshirts",
+      "description": "Heavyweight French terry hoodies and relaxed drop-shoulder sweatshirts.",
+      "image": "/src/assets/images/rns_oversized_hoodie_1794128108141.jpg",
+      "product_count": 3,
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "name": "Tops & Silk Blouses",
+      "slug": "tops-blouses",
+      "description": "Tailored silk blouses, refined button-downs, and effortless day tops.",
+      "image": "/src/assets/images/rns_silk_blouse_1794128111363.jpg",
+      "product_count": 3,
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "name": "Trousers & Bottoms",
+      "slug": "trousers-bottoms",
+      "description": "Pleated linen trousers, tailored wide-leg pants, and relaxed chinos.",
+      "image": "/src/assets/images/rns_linen_trousers_1794128110487.jpg",
+      "product_count": 4,
+      "status": "active"
+    },
+    {
+      "id": 5,
+      "name": "Accessories & Leather",
+      "slug": "accessories",
+      "description": "Minimalist leather belts, tote bags, and everyday wardrobe accents.",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&auto=format&fit=crop&q=80",
+      "product_count": 2,
+      "status": "active"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Vintage Distressed Indigo Denim Jacket",
+      "slug": "vintage-distressed-indigo-denim-jacket",
+      "description": "Crafted from 100% heavyweight 14oz Japanese selvedge denim with authentic artisanal hand-distressing, dual button-flap chest pockets, and custom antique brass hardware.",
+      "category": "Denim & Outerwear",
+      "category_id": 1,
+      "price": 139.99,
+      "original_price": 189.99,
+      "discount": 26,
+      "image": "/src/assets/images/rns_denim_jacket_1794128109654.jpg",
+      "stock_quantity": 42,
+      "status": "active",
+      "sku": "RNS-DNM-001",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "created_at": "2026-02-10T10:15:00.000Z",
+      "updated_at": "2026-03-01T14:20:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Oversized Charcoal Streetwear Hoodie",
+      "slug": "oversized-charcoal-streetwear-hoodie",
+      "description": "Ultra-heavy 480 GSM organic cotton fleece with a structured boxy silhouette, double-layered hood, kangaroo pocket, and brushed interior for luxurious comfort.",
+      "category": "Hoodies & Sweatshirts",
+      "category_id": 2,
+      "price": 94.5,
+      "original_price": 120,
+      "discount": 21,
+      "image": "/src/assets/images/rns_oversized_hoodie_1794128108141.jpg",
+      "stock_quantity": 6,
+      "status": "active",
+      "sku": "RNS-HOD-002",
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "created_at": "2026-02-12T11:00:00.000Z",
+      "updated_at": "2026-03-02T09:10:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "Ivory Tailored Silk Button-Down Blouse",
+      "slug": "ivory-tailored-silk-blouse",
+      "description": "100% Mulberry silk crepe de chine with a clean concealed placket, mother-of-pearl buttons, and structured cuffs. The perfect transition piece from day to evening.",
+      "category": "Tops & Silk Blouses",
+      "category_id": 3,
+      "price": 145,
+      "original_price": 195,
+      "discount": 25,
+      "image": "/src/assets/images/rns_silk_blouse_1794128111363.jpg",
+      "stock_quantity": 18,
+      "status": "active",
+      "sku": "RNS-TOP-003",
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
+      "created_at": "2026-02-14T08:30:00.000Z",
+      "updated_at": "2026-03-03T16:45:00.000Z"
+    },
+    {
+      "id": 4,
+      "name": "Relaxed Pleated Sand Linen Trousers",
+      "slug": "relaxed-pleated-sand-linen-trousers",
+      "description": "Tailored from breathable European flax linen with deep front double pleats, an extended waistband tab, side adjusters, and a relaxed wide-leg drape.",
+      "category": "Trousers & Bottoms",
+      "category_id": 4,
+      "price": 118,
+      "original_price": 150,
+      "discount": 21,
+      "image": "/src/assets/images/rns_linen_trousers_1794128110487.jpg",
+      "stock_quantity": 24,
+      "status": "active",
+      "sku": "RNS-TRS-004",
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "created_at": "2026-02-15T13:20:00.000Z",
+      "updated_at": "2026-03-04T12:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "name": "Midnight Wool Blend Overcoat",
+      "slug": "midnight-wool-blend-overcoat",
+      "description": "Double-breasted tailored longline coat in heavyweight recycled wool blend with peaked lapels, satin cupro lining, and deep welt pockets.",
+      "category": "Denim & Outerwear",
+      "category_id": 1,
+      "price": 249,
+      "original_price": 320,
+      "discount": 22,
+      "image": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=600&auto=format&fit=crop&q=80",
+      "stock_quantity": 4,
+      "status": "active",
+      "sku": "RNS-COT-005",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "created_at": "2026-02-18T15:00:00.000Z",
+      "updated_at": "2026-03-05T11:30:00.000Z"
+    },
+    {
+      "id": 6,
+      "name": "Minimalist Ribbed Merino Knit Sweater",
+      "slug": "minimalist-ribbed-merino-knit-sweater",
+      "description": "Extra-fine Australian merino wool with 7-gauge micro-ribbing, seamless construction, and refined crew neckline.",
+      "category": "Hoodies & Sweatshirts",
+      "category_id": 2,
+      "price": 110,
+      "original_price": 140,
+      "discount": 21,
+      "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&auto=format&fit=crop&q=80",
+      "stock_quantity": 0,
+      "status": "active",
+      "sku": "RNS-KNT-006",
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "created_at": "2026-02-20T09:00:00.000Z",
+      "updated_at": "2026-03-06T18:00:00.000Z"
+    },
+    {
+      "id": 7,
+      "name": "Structured Cotton Poplin Work Shirt",
+      "slug": "structured-cotton-poplin-work-shirt",
+      "description": "Crisp 120-thread count Italian poplin featuring a relaxed camp collar, chest utility pocket, and clean mother-of-pearl buttons.",
+      "category": "Tops & Silk Blouses",
+      "category_id": 3,
+      "price": 88,
+      "original_price": 110,
+      "discount": 20,
+      "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=600&auto=format&fit=crop&q=80",
+      "stock_quantity": 35,
+      "status": "active",
+      "sku": "RNS-TOP-007",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "created_at": "2026-02-22T14:10:00.000Z",
+      "updated_at": "2026-03-07T10:00:00.000Z"
+    },
+    {
+      "id": 8,
+      "name": "Italian Full-Grain Leather Minimalist Belt",
+      "slug": "italian-full-grain-leather-belt",
+      "description": "Handcrafted 30mm full-grain vegetable-tanned Tuscan leather belt with a brushed nickel buckle and bevelled hand-painted edges.",
+      "category": "Accessories & Leather",
+      "category_id": 5,
+      "price": 65,
+      "original_price": 85,
+      "discount": 23,
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&auto=format&fit=crop&q=80",
+      "stock_quantity": 50,
+      "status": "active",
+      "sku": "RNS-ACC-008",
+      "sizes": [
+        "30-32",
+        "34-36",
+        "38-40"
+      ],
+      "created_at": "2026-02-25T11:45:00.000Z",
+      "updated_at": "2026-03-07T12:00:00.000Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Aarav Patel",
+      "email": "aarav.patel@example.com",
+      "phone": "+1 (212) 555-0192",
+      "address": "742 Evergreen Terrace, Apt 4B",
+      "city": "New York",
+      "state": "NY",
+      "zip": "10001",
+      "total_orders": 4,
+      "total_spending": 689.48,
+      "created_at": "2026-01-15T09:20:00.000Z"
+    },
+    {
+      "id": 2,
+      "name": "Sophia Martinez",
+      "email": "sophia.m@example.com",
+      "phone": "+1 (415) 555-0143",
+      "address": "1280 Mission Street, Suite 300",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94103",
+      "total_orders": 3,
+      "total_spending": 498.5,
+      "created_at": "2026-01-20T14:15:00.000Z"
+    },
+    {
+      "id": 3,
+      "name": "Marcus Vance",
+      "email": "marcus.v@example.com",
+      "phone": "+1 (312) 555-0188",
+      "address": "450 North Michigan Ave",
+      "city": "Chicago",
+      "state": "IL",
+      "zip": "60611",
+      "total_orders": 5,
+      "total_spending": 924,
+      "created_at": "2026-01-28T16:40:00.000Z"
+    },
+    {
+      "id": 4,
+      "name": "Elena Rostova",
+      "email": "elena.rostova@example.com",
+      "phone": "+1 (206) 555-0177",
+      "address": "88 Pine Street",
+      "city": "Seattle",
+      "state": "WA",
+      "zip": "98101",
+      "total_orders": 2,
+      "total_spending": 263,
+      "created_at": "2026-02-05T11:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "name": "Liam O'Connor",
+      "email": "liam.oc@example.com",
+      "phone": "+1 (617) 555-0199",
+      "address": "210 Newbury Street",
+      "city": "Boston",
+      "state": "MA",
+      "zip": "02116",
+      "total_orders": 1,
+      "total_spending": 145,
+      "created_at": "2026-02-18T13:30:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-9421",
+      "customer_id": 1,
+      "customer_name": "Aarav Patel",
+      "customer_email": "aarav.patel@example.com",
+      "customer_phone": "+1 (212) 555-0192",
+      "shipping_address": {
+        "street": "742 Evergreen Terrace, Apt 4B",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10001",
+        "country": "United States"
+      },
+      "items": [
+        {
+          "product_id": 1,
+          "name": "Vintage Distressed Indigo Denim Jacket",
+          "price": 139.99,
+          "quantity": 1,
+          "image": "/src/assets/images/rns_denim_jacket_1794128109654.jpg",
+          "size": "L"
+        },
+        {
+          "product_id": 4,
+          "name": "Relaxed Pleated Sand Linen Trousers",
+          "price": 118,
+          "quantity": 1,
+          "image": "/src/assets/images/rns_linen_trousers_1794128110487.jpg",
+          "size": "32"
+        }
+      ],
+      "subtotal": 257.99,
+      "discount": 25.8,
+      "coupon_code": "RNS10",
+      "shipping_fee": 0,
+      "tax": 19.74,
+      "total": 251.93,
+      "payment_method": "Credit Card (Visa •••• 4242)",
+      "payment_status": "Paid",
+      "status": "Delivered",
+      "tracking_number": "FEDEX-9481029410",
+      "notes": "Leave at front desk with doorman.",
+      "created_at": "2026-02-28T14:30:00.000Z",
+      "updated_at": "2026-03-03T18:00:00.000Z"
+    },
+    {
+      "id": "ORD-9422",
+      "customer_id": 3,
+      "customer_name": "Marcus Vance",
+      "customer_email": "marcus.v@example.com",
+      "customer_phone": "+1 (312) 555-0188",
+      "shipping_address": {
+        "street": "450 North Michigan Ave",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60611",
+        "country": "United States"
+      },
+      "items": [
+        {
+          "product_id": 2,
+          "name": "Oversized Charcoal Streetwear Hoodie",
+          "price": 94.5,
+          "quantity": 2,
+          "image": "/src/assets/images/rns_oversized_hoodie_1794128108141.jpg",
+          "size": "XL"
+        }
+      ],
+      "subtotal": 189,
+      "discount": 37.8,
+      "coupon_code": "RNS20",
+      "shipping_fee": 9.99,
+      "tax": 13.7,
+      "total": 174.89,
+      "payment_method": "PayPal (marcus.v@example.com)",
+      "payment_status": "Paid",
+      "status": "Shipped",
+      "tracking_number": "UPS-1Z9999999999999999",
+      "notes": "Fragile packaging requested.",
+      "created_at": "2026-03-04T10:15:00.000Z",
+      "updated_at": "2026-03-05T12:00:00.000Z"
+    },
+    {
+      "id": "ORD-9423",
+      "customer_id": 2,
+      "customer_name": "Sophia Martinez",
+      "customer_email": "sophia.m@example.com",
+      "customer_phone": "+1 (415) 555-0143",
+      "shipping_address": {
+        "street": "1280 Mission Street, Suite 300",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94103",
+        "country": "United States"
+      },
+      "items": [
+        {
+          "product_id": 3,
+          "name": "Ivory Tailored Silk Button-Down Blouse",
+          "price": 145,
+          "quantity": 1,
+          "image": "/src/assets/images/rns_silk_blouse_1794128111363.jpg",
+          "size": "M"
+        }
+      ],
+      "subtotal": 145,
+      "discount": 0,
+      "coupon_code": null,
+      "shipping_fee": 0,
+      "tax": 12.33,
+      "total": 157.33,
+      "payment_method": "Apple Pay",
+      "payment_status": "Paid",
+      "status": "Processing",
+      "tracking_number": null,
+      "notes": "Gift packaging with ribbon.",
+      "created_at": "2026-03-06T09:00:00.000Z",
+      "updated_at": "2026-03-06T11:20:00.000Z"
+    },
+    {
+      "id": "ORD-9424",
+      "customer_id": 4,
+      "customer_name": "Elena Rostova",
+      "customer_email": "elena.rostova@example.com",
+      "customer_phone": "+1 (206) 555-0177",
+      "shipping_address": {
+        "street": "88 Pine Street",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "98101",
+        "country": "United States"
+      },
+      "items": [
+        {
+          "product_id": 1,
+          "name": "Vintage Distressed Indigo Denim Jacket",
+          "price": 139.99,
+          "quantity": 1,
+          "image": "/src/assets/images/rns_denim_jacket_1794128109654.jpg",
+          "size": "S"
+        }
+      ],
+      "subtotal": 139.99,
+      "discount": 0,
+      "coupon_code": null,
+      "shipping_fee": 0,
+      "tax": 11.9,
+      "total": 151.89,
+      "payment_method": "Credit Card (Mastercard •••• 8821)",
+      "payment_status": "Paid",
+      "status": "Confirmed",
+      "tracking_number": null,
+      "notes": "Please call on arrival.",
+      "created_at": "2026-03-07T15:45:00.000Z",
+      "updated_at": "2026-03-07T16:00:00.000Z"
+    },
+    {
+      "id": "ORD-9425",
+      "customer_id": 5,
+      "customer_name": "Liam O'Connor",
+      "customer_email": "liam.oc@example.com",
+      "customer_phone": "+1 (617) 555-0199",
+      "shipping_address": {
+        "street": "210 Newbury Street",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02116",
+        "country": "United States"
+      },
+      "items": [
+        {
+          "product_id": 7,
+          "name": "Structured Cotton Poplin Work Shirt",
+          "price": 88,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=600&auto=format&fit=crop&q=80",
+          "size": "L"
+        }
+      ],
+      "subtotal": 88,
+      "discount": 0,
+      "coupon_code": null,
+      "shipping_fee": 9.99,
+      "tax": 7.48,
+      "total": 105.47,
+      "payment_method": "Cash on Delivery",
+      "payment_status": "Pending",
+      "status": "Pending",
+      "tracking_number": null,
+      "notes": "First time customer, requested order confirmation call.",
+      "created_at": "2026-03-08T08:10:00.000Z",
+      "updated_at": "2026-03-08T08:10:00.000Z"
+    }
+  ],
+  "coupons": [
+    {
+      "id": 1,
+      "code": "RNS20",
+      "discount_percentage": 20,
+      "min_order_amount": 100,
+      "expiry_date": "2026-12-31",
+      "usage_count": 24,
+      "max_usage": 500,
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "code": "WELCOME10",
+      "discount_percentage": 10,
+      "min_order_amount": 50,
+      "expiry_date": "2026-12-31",
+      "usage_count": 68,
+      "max_usage": 1000,
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "code": "SUMMER50",
+      "discount_percentage": 50,
+      "min_order_amount": 250,
+      "expiry_date": "2026-09-01",
+      "usage_count": 8,
+      "max_usage": 50,
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "code": "VIPFLASH",
+      "discount_percentage": 30,
+      "min_order_amount": 150,
+      "expiry_date": "2026-06-30",
+      "usage_count": 12,
+      "max_usage": 100,
+      "status": "inactive"
+    }
+  ],
+  "inventory_logs": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "product_name": "Vintage Distressed Indigo Denim Jacket",
+      "previous_stock": 43,
+      "change": -1,
+      "new_stock": 42,
+      "reason": "Order Placed",
+      "timestamp": "2026-03-07T15:45:00.000Z"
+    },
+    {
+      "id": 2,
+      "product_id": 2,
+      "product_name": "Oversized Charcoal Streetwear Hoodie",
+      "previous_stock": 8,
+      "change": -2,
+      "new_stock": 6,
+      "reason": "Order Placed",
+      "timestamp": "2026-03-04T10:15:00.000Z"
+    },
+    {
+      "id": 3,
+      "product_id": 2,
+      "product_name": "Oversized Charcoal Streetwear Hoodie",
+      "previous_stock": 0,
+      "change": 8,
+      "new_stock": 8,
+      "reason": "Restock",
+      "timestamp": "2026-03-01T09:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "product_id": 6,
+      "product_name": "Minimalist Ribbed Merino Knit Sweater",
+      "previous_stock": 1,
+      "change": -1,
+      "new_stock": 0,
+      "reason": "Order Placed",
+      "timestamp": "2026-02-27T17:00:00.000Z"
+    }
+  ]
+}

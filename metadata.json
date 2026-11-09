@@ -1,0 +1,6 @@
+{
+  "name": "RNS SHOP - Admin Dashboard",
+  "description": "Professional e-commerce admin dashboard for RNS SHOP with product, order, customer, inventory, category, coupon and analytics management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
